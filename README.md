@@ -1,190 +1,56 @@
-Datenbank für eine Buchtausch-App
+\# Datenbank für eine Buchtausch-App
 
-Dieses Repository enthält die Dokumentation, SQL-Dateien und Ergebnisse zum Projekt Datenbank für eine Buchtausch-App im Kurs DLBDSPBDM01D. Ziel des Projekts ist die Entwicklung einer relationalen Datenbank, mit der Bücher in einer lokalen Gemeinschaft angeboten, ausgeliehen, bewertet und verwaltet werden können.
 
 
+Dieses Repository enthält die SQL-Dateien und Dokumentation zum Projekt \*\*Datenbank für eine Buchtausch-App\*\* im Kurs \*\*DLBDSPBDM01D\*\*. Ziel ist eine relationale Datenbank für das Anbieten, Ausleihen und Bewerten von Büchern. \[file:2]
 
-Projektinhalt
 
-Die Datenbank bildet die wichtigsten Abläufe einer Buchtauschplattform ab:
 
+\## Inhalt
 
 
-Verwaltung von Benutzern und Admins.
 
+\- Tabellen- und Beziehungserstellung
 
+\- Einfüge-Dateien für Stammdaten und Dummy-Daten
 
-Speicherung von Büchern und Buchangeboten.
+\- Testabfragen und erweiterte SQL-Abfragen
 
+\- PDF-Dokumente aus den drei Phasen
 
+\- Abstract
 
-Verarbeitung von Anfragen und Ausleihen.
+\- Installationsanleitung
 
 
 
-Erfassung von Bewertungen.
+\## Verwendung
 
 
 
-Verwaltung von Abholorten, Zeitslots und Versandoptionen.
+1\. Datenbank anlegen.
 
+2\. `Tabellen\_erstellen.sql` ausführen.
 
+3\. `Beziehungstabellen\_erstellen.sql` ausführen.
 
-Ordnerstruktur
+4\. Danach die Einfüge- und Dummy-Dateien starten.
 
-Die Abgabe ist in drei Phasen gegliedert:
+5\. Anschließend die Test- und Abfrage-Dateien ausführen.
 
 
 
-01\_Konzeptionsphase
+Eine detaillierte Anleitung befindet sich in der Installationsanleitung.
 
 
 
-02\_Erarbeitungs-Reflexionsphase
+\## Autor
 
 
 
-03\_Finalisierungsphase
+Sandro Amberger  
 
+IU14109864  
 
-
-Zusätzlich enthält das Projekt die SQL-Dateien und die finale Dokumentation.
-
-
-
-SQL-Dateien
-
-Tabellen\_erstellen.sql
-
-
-
-Beziehungstabellen\_erstellen.sql
-
-
-
-Einfügen\_Benutzer.sql
-
-
-
-buch\_einfügen.sql
-
-
-
-buchangebot\_einfügen.sql
-
-
-
-anfrage\_einfügen.sql
-
-
-
-Ausleihe\_einfügen.sql
-
-
-
-bewertung\_einfügen.sql
-
-
-
-Abholort\_einfügen.sql
-
-
-
-Zeitslot\_einfügen.sql
-
-
-
-Versandoption\_einfügen.sql
-
-
-
-Dummy\_Daten\_befüllung1.sql
-
-
-
-Dummy\_Daten\_befüllung2.sql
-
-
-
-Testfall\_Übung.sql
-
-
-
-Verschachtelte\_abfrage.sql
-
-
-
-Durchschnittliche\_Bewertung\_pro\_Benutzer.sql
-
-
-
-Anzahl\_der\_Ausleihen\_pro\_Status.sql
-
-
-
-Ausführung
-
-Zuerst die Tabellen und Beziehungen erstellen.
-
-
-
-Danach die Einfüge-Dateien für die Stammdaten ausführen.
-
-
-
-Anschließend die Dummy-Daten laden.
-
-
-
-Danach die Testabfragen und komplexeren SQL-Abfragen starten.
-
-
-
-Eine genaue Schritt-für-Schritt-Anleitung befindet sich zusätzlich in der Installationsanleitung.
-
-
-
-Enthaltene Dokumente
-
-Konzeptionphase als PDF.
-
-
-
-Erarbeitungs-/Reflexionsphase als PDF.
-
-
-
-Finalisierungsphase als PDF.
-
-
-
-Abstract.
-
-
-
-Installationsanleitung.
-
-
-
-GitHub-Link-Dokument.
-
-
-
-Hinweis zur Finalisierung
-
-Die Finalisierungsphase ergänzt das Projekt um ein dreiseitiges Abschlussdokument, ein Abstract, eine README-Datei und das GitHub-Repository. Diese Unterlagen dienen dazu, die Funktionalität, Struktur und technische Umsetzung der Datenbank nachvollziehbar darzustellen.
-
-
-
-Autor
-
-Sandro Amberger
-
-
-
-Matrikelnummer: IU14109864
-
-
-
-Kurs: DLBDSPBDM01D
+DLBDSPBDM01D
 
