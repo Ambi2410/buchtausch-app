@@ -1,0 +1,44 @@
+PRAGMA foreign_keys = ON;
+
+CREATE TABLE Benutzer (
+    BenutzerID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name TEXT NOT NULL,
+    Adresse TEXT,
+    Email TEXT NOT NULL UNIQUE,
+    Passwort TEXT NOT NULL
+);
+
+CREATE TABLE Admin (
+    AdminID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name TEXT NOT NULL
+);
+
+CREATE TABLE Buch (
+    BuchID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Titel TEXT NOT NULL,
+    Autor TEXT NOT NULL,
+    Sprache TEXT,
+    ISBN TEXT UNIQUE,
+    Genre TEXT,
+    Erscheinungsjahr INTEGER
+);
+
+CREATE TABLE Abholort (
+    StandortID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name TEXT NOT NULL,
+    Anschrift TEXT NOT NULL
+);
+
+CREATE TABLE Zeitslot (
+    SlotID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Tag TEXT NOT NULL,
+    Monat TEXT NOT NULL,
+    Startzeit TEXT NOT NULL,
+    Endzeit TEXT NOT NULL
+);
+
+CREATE TABLE Versandoption (
+    VersandID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Versandart TEXT NOT NULL,
+    Kosten REAL NOT NULL
+);

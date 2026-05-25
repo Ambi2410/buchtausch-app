@@ -1,0 +1,3 @@
+SELECT *
+FROM Admin
+WHERE AdminID = 6;

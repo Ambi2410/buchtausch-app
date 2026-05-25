@@ -1,0 +1,2 @@
+SELECT * FROM Benutzer;
+SELECT * FROM Buch;

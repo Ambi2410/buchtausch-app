@@ -1,0 +1,3 @@
+SELECT *
+FROM Zeitslot
+WHERE SlotID = 11;

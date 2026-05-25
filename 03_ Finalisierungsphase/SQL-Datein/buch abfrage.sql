@@ -1,0 +1,3 @@
+SELECT *
+FROM Buch
+WHERE BuchID = 11;
