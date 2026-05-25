@@ -1,190 +1,190 @@
-# Datenbank für eine Buchtausch-App
+Datenbank für eine Buchtausch-App
 
-# Dieses Repository enthält die Dokumentation, SQL-Dateien und Ergebnisse zum Projekt Datenbank für eine Buchtausch-App im Kurs DLBDSPBDM01D. Ziel des Projekts ist die Entwicklung einer relationalen Datenbank, mit der Bücher in einer lokalen Gemeinschaft angeboten, ausgeliehen, bewertet und verwaltet werden können.
+Dieses Repository enthält die Dokumentation, SQL-Dateien und Ergebnisse zum Projekt Datenbank für eine Buchtausch-App im Kurs DLBDSPBDM01D. Ziel des Projekts ist die Entwicklung einer relationalen Datenbank, mit der Bücher in einer lokalen Gemeinschaft angeboten, ausgeliehen, bewertet und verwaltet werden können.
 
-# 
 
-# Projektinhalt
 
-# Die Datenbank bildet die wichtigsten Abläufe einer Buchtauschplattform ab:
+Projektinhalt
 
-# 
+Die Datenbank bildet die wichtigsten Abläufe einer Buchtauschplattform ab:
 
-# Verwaltung von Benutzern und Admins.
 
-# 
 
-# Speicherung von Büchern und Buchangeboten.
+Verwaltung von Benutzern und Admins.
 
-# 
 
-# Verarbeitung von Anfragen und Ausleihen.
 
-# 
+Speicherung von Büchern und Buchangeboten.
 
-# Erfassung von Bewertungen.
 
-# 
 
-# Verwaltung von Abholorten, Zeitslots und Versandoptionen.
+Verarbeitung von Anfragen und Ausleihen.
 
-# 
 
-# Ordnerstruktur
 
-# Die Abgabe ist in drei Phasen gegliedert:
+Erfassung von Bewertungen.
 
-# 
 
-# 01\_Konzeptionsphase
 
-# 
+Verwaltung von Abholorten, Zeitslots und Versandoptionen.
 
-# 02\_Erarbeitungs-Reflexionsphase
 
-# 
 
-# 03\_Finalisierungsphase
+Ordnerstruktur
 
-# 
+Die Abgabe ist in drei Phasen gegliedert:
 
-# Zusätzlich enthält das Projekt die SQL-Dateien und die finale Dokumentation.
 
-# 
 
-# SQL-Dateien
+01\_Konzeptionsphase
 
-# Tabellen\_erstellen.sql
 
-# 
 
-# Beziehungstabellen\_erstellen.sql
+02\_Erarbeitungs-Reflexionsphase
 
-# 
 
-# Einfügen\_Benutzer.sql
 
-# 
+03\_Finalisierungsphase
 
-# buch\_einfügen.sql
 
-# 
 
-# buchangebot\_einfügen.sql
+Zusätzlich enthält das Projekt die SQL-Dateien und die finale Dokumentation.
 
-# 
 
-# anfrage\_einfügen.sql
 
-# 
+SQL-Dateien
 
-# Ausleihe\_einfügen.sql
+Tabellen\_erstellen.sql
 
-# 
 
-# bewertung\_einfügen.sql
 
-# 
+Beziehungstabellen\_erstellen.sql
 
-# Abholort\_einfügen.sql
 
-# 
 
-# Zeitslot\_einfügen.sql
+Einfügen\_Benutzer.sql
 
-# 
 
-# Versandoption\_einfügen.sql
 
-# 
+buch\_einfügen.sql
 
-# Dummy\_Daten\_befüllung1.sql
 
-# 
 
-# Dummy\_Daten\_befüllung2.sql
+buchangebot\_einfügen.sql
 
-# 
 
-# Testfall\_Übung.sql
 
-# 
+anfrage\_einfügen.sql
 
-# Verschachtelte\_abfrage.sql
 
-# 
 
-# Durchschnittliche\_Bewertung\_pro\_Benutzer.sql
+Ausleihe\_einfügen.sql
 
-# 
 
-# Anzahl\_der\_Ausleihen\_pro\_Status.sql
 
-# 
+bewertung\_einfügen.sql
 
-# Ausführung
 
-# Zuerst die Tabellen und Beziehungen erstellen.
 
-# 
+Abholort\_einfügen.sql
 
-# Danach die Einfüge-Dateien für die Stammdaten ausführen.
 
-# 
 
-# Anschließend die Dummy-Daten laden.
+Zeitslot\_einfügen.sql
 
-# 
 
-# Danach die Testabfragen und komplexeren SQL-Abfragen starten.
 
-# 
+Versandoption\_einfügen.sql
 
-# Eine genaue Schritt-für-Schritt-Anleitung befindet sich zusätzlich in der Installationsanleitung.
 
-# 
 
-# Enthaltene Dokumente
+Dummy\_Daten\_befüllung1.sql
 
-# Konzeptionphase als PDF.
 
-# 
 
-# Erarbeitungs-/Reflexionsphase als PDF.
+Dummy\_Daten\_befüllung2.sql
 
-# 
 
-# Finalisierungsphase als PDF.
 
-# 
+Testfall\_Übung.sql
 
-# Abstract.
 
-# 
 
-# Installationsanleitung.
+Verschachtelte\_abfrage.sql
 
-# 
 
-# GitHub-Link-Dokument.
 
-# 
+Durchschnittliche\_Bewertung\_pro\_Benutzer.sql
 
-# Hinweis zur Finalisierung
 
-# Die Finalisierungsphase ergänzt das Projekt um ein dreiseitiges Abschlussdokument, ein Abstract, eine README-Datei und das GitHub-Repository. Diese Unterlagen dienen dazu, die Funktionalität, Struktur und technische Umsetzung der Datenbank nachvollziehbar darzustellen.
 
-# 
+Anzahl\_der\_Ausleihen\_pro\_Status.sql
 
-# Autor
 
-# Sandro Amberger
 
-# 
+Ausführung
 
-# Matrikelnummer: IU14109864
+Zuerst die Tabellen und Beziehungen erstellen.
 
-# 
 
-# Kurs: DLBDSPBDM01D
+
+Danach die Einfüge-Dateien für die Stammdaten ausführen.
+
+
+
+Anschließend die Dummy-Daten laden.
+
+
+
+Danach die Testabfragen und komplexeren SQL-Abfragen starten.
+
+
+
+Eine genaue Schritt-für-Schritt-Anleitung befindet sich zusätzlich in der Installationsanleitung.
+
+
+
+Enthaltene Dokumente
+
+Konzeptionphase als PDF.
+
+
+
+Erarbeitungs-/Reflexionsphase als PDF.
+
+
+
+Finalisierungsphase als PDF.
+
+
+
+Abstract.
+
+
+
+Installationsanleitung.
+
+
+
+GitHub-Link-Dokument.
+
+
+
+Hinweis zur Finalisierung
+
+Die Finalisierungsphase ergänzt das Projekt um ein dreiseitiges Abschlussdokument, ein Abstract, eine README-Datei und das GitHub-Repository. Diese Unterlagen dienen dazu, die Funktionalität, Struktur und technische Umsetzung der Datenbank nachvollziehbar darzustellen.
+
+
+
+Autor
+
+Sandro Amberger
+
+
+
+Matrikelnummer: IU14109864
+
+
+
+Kurs: DLBDSPBDM01D
 
